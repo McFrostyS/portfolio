@@ -63,7 +63,28 @@ function language() {
 
         contactTitle.innerHTML = "Contact me";
     } else {
-        location.href = "../index.html";
+        navAbout.innerHTML = "Sobre mí";
+        navSkills.innerHTML = "Habilidades";
+        navProjects.innerHTML = "Proyectos";
+        navContact.innerHTML = "Contacto";
+
+        headerTitle.innerHTML = "Hola, soy <span class='color'>Sergio</span><br />de España";
+        typedOut.innerHTML = "Desarrollador Web";
+        typedOut2.innerHTML = "¡Trabajemos juntos!";
+        aboutTitle.innerHTML = "Sobre mí";
+        aboutParagraph.innerHTML =
+            "Nací el 20 de julio de 2002 en la ciudad de Toledo. Desde que era un niño me gustaba la tecnología y la informática, por lo que decidí estudiar un grado superior en Desarrollo de Aplicaciones Web. Actualmente estoy en el segundo año de este grado, y estoy a punto de hacer una especialización en Inteligencia Artificial y Big Data.";
+        aboutParagraph2.innerHTML =
+            "Me encanta aprender, y siempre estoy buscando nuevas tecnologías para aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas formas de aprender.";
+
+        skillTitle.innerHTML = "Habilidades";
+        skillsTitle1.innerHTML = "Lenguajes";
+        skillsTitle2.innerHTML = "Tecnologías";
+
+        projectTitle.innerHTML = "Proyectos";
+        projectTitle1.innerHTML = "Este Portfolio";
+
+        contactTitle.innerHTML = "Contáctame";
     }
 }
 
