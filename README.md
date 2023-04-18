@@ -1,6 +1,6 @@
 # Sergio Aguado - Portfolio
 
-![portfolio-img](https://github.com/AimarBustamante/myPortfolio/blob/main/img/portfolio.png)
+![portfolio-img](https://github.com/McFrostyS/portfolio/blob/main/img/portfolio.png)
 
 Welcome / Bienvenido
 
