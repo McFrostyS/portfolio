@@ -1,7 +1,5 @@
 # Sergio Aguado - Portfolio
 
-![portfolio-img](https://github.com/McFrostyS/portfolio/blob/main/img/portfolio.png)
-
 Welcome / Bienvenido
 
 #### EN
