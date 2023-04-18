@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Sergio Aguado" />
+        <meta name="description" content="Sergio Aguado presonal portfolio" />
+        <meta
+            name="keywords"
+            content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer, SQL, Java, git"
+        />
+        <title>Sergio Aguado | Web Developer</title>
+        <!-- FONT AWESOME -->
+        <script src="https://kit.fontawesome.com/0ce218d0bf.js" crossorigin="anonymous"></script>
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/css.css" />
+        <link rel="stylesheet" href="styles/normalize.css" />
+        <!-- TWITTER -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="" />
+        <meta property="twitter:title" content="Sergio Aguado | Web Developer" />
+        <meta
+            property="twitter:description"
+            content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
+        />
+        <meta property="twitter:image" content="" />
+        <!-- FACEBOOK -->
+        <meta property="og:title" content="Sergio Aguado | Web Developer" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="Sergio Aguado's porfolio. Web Developer." />
+        <meta property="og:image" content="" />
+
+        <link rel="icon" type="image/png" href="/img/logo2-removebg-preview.png" />
+
+        <!-- SCRIPTS -->
+        <script defer src="js/scripts.js"></script>
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <nav class="container">
+                    <h1 class="main-title color">Sergio</h1>
+                    <ul id="side-menu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a class="nav-about" href="#about">Acerca de</a></li>
+                        <li><a class="nav-skills" href="#skills">Habilidades</a></li>
+                        <li><a class="nav-projects" href="#projects">Proyectos</a></li>
+                        <li><a class="nav-contact" href="#contact">Contacto</a></li>
+                        <li>
+                            <div class="toggle-switch">
+                                <span>ES</span>
+                                <input type="checkbox" class="toggler" />
+                                <span>EN</span>
+                            </div>
+                        </li>
+                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+                </nav>
+                <section class="header-text">
+                    <div class="typed-container">
+                        <div class="typed-out">Desarrollador Web</div>
+                    </div>
+                    <h2 class="header-title">Hola, soy <span class="color">Sergio</span><br />desde España</h2>
+                    <div class="typed-container">
+                        <div class="typed-out typed-out--second">¡Vamos a trabajar juntos!</div>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="./img/1.jpg" alt="Sergio Aguado" />
+                        </div>
+                        <div class="about-col-2">
+                            <h2 class="about-title subtitle">Sobre mí</h2>
+                            <p class="about-paragraph">
+                                Nací el 20 de Julio de 2002 en la ciudad de Toledo. Desde pequeño me ha gustado la tecnología y la
+                                informática, por lo que decidí estudiar un grado superior de Desarrollo de Aplicaciones Web.
+                                Actualmente estoy cursando el segundo año de este grado superior, y a espensas de hacer la
+                                espcialización en Inteligencia Artificial y Big Data.
+                            </p>
+                            <p class="about-paragraph-2">
+                                Me encanta aprender, y siempre estoy buscando nuevas tecnologías para aprender. Me gusta mucho ser
+                                autodidacta, y siempre estoy buscando nuevas formas de aprender.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container">
+                    <h2 class="skill-title subtitle">Habilidades</h2>
+                    <p class="skills-paragraph">
+                        “Technology is moving at such a pace that if you stand still, you'll miss everything that's happening.”
+                        <br />Tim Berners-Lee, British computer scientist.
+                    </p>
+
+                    <div class="skills-items">
+                        <div class="languages">
+                            <h2 class="skills-title-1">Lenguajes</h2>
+                            <div class="languages-icons">
+                                <i class="dev-icon devicon-html5-plain skill-icon"></i>
+                                <i class="dev-icon devicon-css3-plain skill-icon"></i>
+                                <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                                <i class="dev-icon devicon-java-plain skill-icon"></i>
+                            </div>
+                        </div>
+                        <div class="technologies">
+                            <h2 class="skills-title-2">Tecnologías</h2>
+                            <div class="technologies-icons">
+                                <i class="dev-icon devicon-git-plain skill-icon"></i>
+                                <i class="dev-icon devicon-github-original skill-icon"></i>
+                                <i class="dev-icon devicon-oracle-plain skill-icon"></i>
+                                <i class="dev-icon devicon-mysql-plain skill-icon"></i>
+                            </div>
+                        </div>
+                        <div class="frameworks">
+                            <h2 class="skills-title-3">Frameworks</h2>
+                            <div class="frameworks-icons">
+                                <i class="dev-icon devicon-react-original skill-icon"></i>
+                                <i class="dev-icon devicon-bootstrap-plain skill-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="container">
+                    <h2 class="project-title subtitle">Mis proyectos</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="img/portfolio.png" alt="work-1" />
+                            <div class="layer">
+                                <h3 class="project-title-1">Este Portfolio</h3>
+                                <p>
+                                    <i class="dev-icon devicon-html5-plain skill-icon"></i>
+                                    <i class="dev-icon devicon-css3-plain skill-icon"></i>
+                                    <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                                </p>
+                                <div class="work-links">
+                                    <a
+                                        href="https://github.com/McFrostyS/McFrostyS"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="github"
+                                        ><i class="fa-brands fa-github"></i
+                                    ></a>
+
+                                    <a
+                                        href="https://github.com/McFrostyS/McFrostyS"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="external-link"
+                                        ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MAS PROYECTOS EN DESARROLLO -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h2 class="contact-title subtitle">Contacto</h2>
+                            <div class="social-icons">
+                                <a
+                                    href="https://github.com/McFrostyS"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="github"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                                <a
+                                    href="https://www.linkedin.com/in/sergioaguadogarrido/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="linkedin"
+                                    ><i class="fa-brands fa-linkedin"></i
+                                ></a>
+                                <a href="mailto:sergioaguadogarrido@gmail.com" aria-label="mail"
+                                    ><i class="fa-solid fa-envelope"></i
+                                ></a>
+                            </div>
+                            <a href="cv/" target="_blank" rel="noopener noreferrer" class="btn download-btn"
+                                >Download CV <i class="fa-solid fa-download"></i
+                            ></a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="contact">
+                                <input type="text" name="Name" placeholder="Name" required />
+                                <input type="email" name="email" placeholder="Email" required />
+                                <textarea name="Message" rows="6" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>Copyright ©2023 All rights reserved | Page by Sergio Aguado</p>
+            </div>
+        </footer>
+    </body>
+</html>
