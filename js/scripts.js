@@ -25,6 +25,7 @@ const typedOut2 = document.querySelector(".typed-out--second");
 const aboutTitle = document.querySelector(".about-title");
 const aboutParagraph = document.querySelector(".about-paragraph");
 const aboutParagraph2 = document.querySelector(".about-paragraph-2");
+const aboutParagraph3 = document.querySelector(".about-paragraph-3");
 
 const skillTitle = document.querySelector(".skill-title");
 const skillsTitle1 = document.querySelector(".skills-title-1");
@@ -53,6 +54,8 @@ function language() {
             "I was born on July 20, 2002 in the city of Toledo. Since I was a child I liked technology and computer science, so I decided to study a higher degree in Web Application Development. I'm currently in the second year of this degree, and I'm about to do a specialization in Artificial Intelligence and Big Data.";
         aboutParagraph2.innerHTML =
             "I love to learn, and I am always looking for new technologies to learn. I really enjoy being self-taught, and I am always looking for new ways to learn.";
+        aboutParagraph3.innerHTML =
+            "In my free time, I enjoy working on personal projects and contributing to open source software. I'm excited to see what the future holds and where my passion for software development will take.";
 
         skillTitle.innerHTML = "Skills";
         skillsTitle1.innerHTML = "Languages";
@@ -73,9 +76,11 @@ function language() {
         typedOut2.innerHTML = "¡Trabajemos juntos!";
         aboutTitle.innerHTML = "Sobre mí";
         aboutParagraph.innerHTML =
-            "Nací el 20 de julio de 2002 en la ciudad de Toledo. Desde que era un niño me gustaba la tecnología y la informática, por lo que decidí estudiar un grado superior en Desarrollo de Aplicaciones Web. Actualmente estoy en el segundo año de este grado, y estoy a punto de hacer una especialización en Inteligencia Artificial y Big Data.";
+            "Soy estudiante de Desarrollo de Aplicaciones Web, y desde pequeño me ha gustado la tecnología y la informática, por lo que decidí estudiar este campo. Actualmente estoy en segundo curso de esta carrera, y estoy deseando hacer la especialización en Inteligencia Artificial y Big Data.";
         aboutParagraph2.innerHTML =
-            "Me encanta aprender, y siempre estoy buscando nuevas tecnologías para aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas formas de aprender.";
+            "Me encanta aprender, y siempre estoy buscando nuevas tecnologías que aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas formas de aprender.";
+        aboutParagraph3.innerHTML =
+            "En mi tiempo libre, disfruto trabajando en proyectos personales y contribuyendo al software de código abierto. Me entusiasma ver qué me depara el futuro y hacia dónde me llevará mi pasión por el desarrollo de software.";
 
         skillTitle.innerHTML = "Habilidades";
         skillsTitle1.innerHTML = "Lenguajes";
