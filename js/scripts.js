@@ -36,6 +36,8 @@ const projectTitle1 = document.querySelector(".project-title-1");
 
 const contactTitle = document.querySelector(".contact-title");
 
+const cv = document.querySelector(".download-btn");
+
 function language() {
     let id = check.checked;
 
@@ -65,6 +67,8 @@ function language() {
         projectTitle1.innerHTML = "This Portfolio";
 
         contactTitle.innerHTML = "Contact me";
+
+        cv.setAttribute("href", "cv/My Curriculum Vitae.pdf");
     } else {
         navAbout.innerHTML = "Sobre mí";
         navSkills.innerHTML = "Habilidades";
@@ -90,6 +94,8 @@ function language() {
         projectTitle1.innerHTML = "Este Portfolio";
 
         contactTitle.innerHTML = "Contáctame";
+
+        cv.setAttribute("href", "cv/CV.pdf");
     }
 }
 
