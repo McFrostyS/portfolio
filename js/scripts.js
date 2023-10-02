@@ -68,7 +68,7 @@ function language() {
 
         contactTitle.innerHTML = "Contact me";
 
-        cv.setAttribute("href", "cv/My Curriculum Vitae.pdf");
+        cv.setAttribute("href", "cv/My CV.pdf");
     } else {
         navAbout.innerHTML = "Sobre mí";
         navSkills.innerHTML = "Habilidades";
@@ -95,7 +95,7 @@ function language() {
 
         contactTitle.innerHTML = "Contáctame";
 
-        cv.setAttribute("href", "cv/CV.pdf");
+        cv.setAttribute("href", "cv/Mi CV.pdf");
     }
 }
 
