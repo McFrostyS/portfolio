@@ -241,6 +241,7 @@ nav #side-menu {
 .about-col-1 img {
     width: 100%;
     border-radius: 10px;
+    height: fit-content;
 }
 
 .about-col-2 {
@@ -258,45 +259,6 @@ nav #side-menu {
     font-weight: 400;
     color: var(--fourthColor);
     line-height: 1.5;
-}
-
-.tab-title {
-    margin: 20px 0 40px;
-}
-
-.tab-link {
-    margin-right: 50px;
-    font-size: 1.125em;
-    position: relative;
-}
-
-.tab-link::after {
-    content: "";
-    width: 5%;
-    height: 3px;
-    background-color: var(--secondaryColor);
-    border-radius: 15px;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-}
-
-.tab-content {
-    margin-bottom: 20px;
-}
-
-.tab-content p {
-    margin-bottom: 12px;
-}
-
-.tab-content ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.tab-content ul li {
-    margin-right: 30px;
-    color: var(--fourthColor);
 }
 
 /** ---- Skills ---- **/
@@ -344,6 +306,7 @@ nav #side-menu {
 .skill-icon {
     font-size: 2em;
     color: #ffbd39;
+    padding: 3px;
 }
 
 /** ---- Projects ---- **/
@@ -640,11 +603,6 @@ form textarea {
 
     .about-col-2 {
         font-size: 0.875rem;
-    }
-
-    .tab-link {
-        font-size: 1rem;
-        margin-right: 20px;
     }
 
     /** --- Projects --- **/
