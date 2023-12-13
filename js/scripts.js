@@ -64,7 +64,6 @@ function language() {
         skillsTitle2.innerHTML = "Technologies";
 
         projectTitle.innerHTML = "Projects";
-        projectTitle1.innerHTML = "This Portfolio";
 
         contactTitle.innerHTML = "Contact me";
 
