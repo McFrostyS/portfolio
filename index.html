@@ -1,408 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Sergio Aguado" />
-        <meta name="description" content="Sergio Aguado personal portfolio" />
-        <meta
-            name="keywords"
-            content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer, SQL, Java, git, React, Python"
-        />
-        <title>Sergio Aguado | Web Developer</title>
-        <!-- FONT AWESOME -->
-        <script
-            src="https://kit.fontawesome.com/0ce218d0bf.js"
-            crossorigin="anonymous"
-        ></script>
-        <!-- GOOGLE FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
-        />
-        <!-- CSS -->
-        <link rel="stylesheet" href="styles/css.css" />
-        <link rel="stylesheet" href="styles/normalize.css" />
-        <!-- TWITTER -->
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-            property="twitter:url"
-            content="https://mcfrostys.github.io/portfolio"
-        />
-        <meta
-            property="twitter:title"
-            content="Sergio Aguado | Web Developer"
-        />
-        <meta
-            property="twitter:description"
-            content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
-        />
-        <meta
-            property="twitter:image"
-            content="https://mcfrostys.github.io/portfolio/img/portfolio.png"
-        />
-        <!-- FACEBOOK -->
-        <meta property="og:title" content="Sergio Aguado | Web Developer" />
-        <meta
-            property="og:url"
-            content="https://mcfrostys.github.io/portfolio"
-        />
-        <meta
-            property="og:description"
-            content="Sergio Aguado's porfolio. Web Developer."
-        />
-        <meta
-            property="og:image"
-            content="https://mcfrostys.github.io/portfolio/img/portfolio.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            href="./img/logo2-removebg-preview.png"
-        />
-        <!-- SCRIPTS -->
-        <script defer src="js/scripts.js"></script>
-        <!-- SCROLL REVEAL -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-    </head>
-    <body>
-        <header id="header">
-            <div class="container">
-                <nav class="container">
-                    <a href="#header"
-                        ><h1 class="main-title color">Sergio.</h1></a
-                    >
-                    <ul id="side-menu">
-                        <li><a href="#header">Home</a></li>
-                        <li>
-                            <a class="nav-about" href="#about">Acerca de</a>
-                        </li>
-                        <li>
-                            <a class="nav-skills" href="#skills">Habilidades</a>
-                        </li>
-                        <li>
-                            <a class="nav-projects" href="#projects"
-                                >Proyectos</a
-                            >
-                        </li>
-                        <li>
-                            <a class="nav-contact" href="#contact">Contacto</a>
-                        </li>
-                        <li>
-                            <div class="toggle-switch">
-                                <span>ES</span>
-                                <input type="checkbox" class="toggler" />
-                                <span>EN</span>
-                            </div>
-                        </li>
-                        <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
-                    </ul>
-                    <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-                </nav>
-                <section class="header-text">
-                    <div class="typed-container">
-                        <div class="typed-out">Desarrollador Web</div>
-                    </div>
-                    <h2 class="header-title">
-                        Hola, soy <span class="color">Sergio</span><br />desde
-                        España
-                    </h2>
-                    <div class="typed-container">
-                        <div class="typed-out typed-out--second">
-                            ¡Vamos a trabajar juntos!
-                        </div>
-                    </div>
-                </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sergio Aguado" />
+    <meta name="description" content="Sergio Aguado personal portfolio" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Bootstrap, Frontend, Frontend Developer, Web Developer, SQL, Java, git, React, Python"
+    />
+    <title>Sergio Aguado | Web Developer</title>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/0ce218d0bf.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/css.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <!-- TWITTER -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://mcfrostys.github.io/portfolio" />
+    <meta property="twitter:title" content="Sergio Aguado | Web Developer" />
+    <meta
+      property="twitter:description"
+      content="This is my personal portfolio. Here you'll see my programmer profile and my latest projects. "
+    />
+    <meta
+      property="twitter:image"
+      content="https://mcfrostys.github.io/portfolio/img/portfolio.png"
+    />
+    <!-- FACEBOOK -->
+    <meta property="og:title" content="Sergio Aguado | Web Developer" />
+    <meta property="og:url" content="https://mcfrostys.github.io/portfolio" />
+    <meta property="og:description" content="Sergio Aguado's porfolio. Web Developer." />
+    <meta
+      property="og:image"
+      content="https://mcfrostys.github.io/portfolio/img/portfolio.png"
+    />
+    <link rel="icon" type="image/png" href="./img/logo2-removebg-preview.png" />
+    <!-- SCRIPTS -->
+    <script defer src="js/scripts.js"></script>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="container">
+          <a href="#header"><h1 class="main-title color">Sergio.</h1></a>
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li>
+              <a class="nav-about" href="#about">Acerca de</a>
+            </li>
+            <li>
+              <a class="nav-skills" href="#skills">Habilidades</a>
+            </li>
+            <li>
+              <a class="nav-projects" href="#projects">Proyectos</a>
+            </li>
+            <li>
+              <a class="nav-contact" href="#contact">Contacto</a>
+            </li>
+            <li>
+              <div class="toggle-switch">
+                <span>ES</span>
+                <input type="checkbox" class="toggler" />
+                <span>EN</span>
+              </div>
+            </li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <section class="header-text">
+          <div class="typed-container">
+            <div class="typed-out">Desarrollador Web</div>
+          </div>
+          <h2 class="header-title">
+            Hola, soy <span class="color">Sergio</span><br />desde España
+          </h2>
+          <div class="typed-container">
+            <div class="typed-out typed-out--second">¡Vamos a trabajar juntos!</div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="./img/yo2.jpg" alt="Sergio Aguado" />
             </div>
-        </header>
+            <div class="about-col-2">
+              <h2 class="about-title subtitle">Sobre mí</h2>
+              <p class="about-paragraph">
+                Soy estudiante de Desarrollo de Aplicaciones Web, y desde pequeño me ha
+                gustado la tecnología y la informática, por lo que decidí estudiar este
+                campo. Actualmente estoy en segundo curso de esta grado superior, y estoy
+                deseando hacer la especialización en Inteligencia Artificial y Big Data.
+              </p>
+              <p class="about-paragraph-2">
+                Me encanta aprender, y siempre estoy buscando nuevas tecnologías que
+                aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas
+                formas de aprender.
+              </p>
+              <p class="about-paragraph-3">
+                En mi tiempo libre, disfruto trabajando en proyectos personales y
+                contribuyendo al software de código abierto. Me entusiasma ver qué me
+                depara el futuro y hacia dónde me llevará mi pasión por el desarrollo de
+                software.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <main>
-            <section id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="about-col-1">
-                            <img src="./img/yo2.jpg" alt="Sergio Aguado" />
-                        </div>
-                        <div class="about-col-2">
-                            <h2 class="about-title subtitle">Sobre mí</h2>
-                            <p class="about-paragraph">
-                                Soy estudiante de Desarrollo de Aplicaciones
-                                Web, y desde pequeño me ha gustado la tecnología
-                                y la informática, por lo que decidí estudiar
-                                este campo. Actualmente estoy en segundo curso
-                                de esta grado superior, y estoy deseando hacer
-                                la especialización en Inteligencia Artificial y
-                                Big Data.
-                            </p>
-                            <p class="about-paragraph-2">
-                                Me encanta aprender, y siempre estoy buscando
-                                nuevas tecnologías que aprender. Me encanta ser
-                                autodidacta, y siempre estoy buscando nuevas
-                                formas de aprender.
-                            </p>
-                            <p class="about-paragraph-3">
-                                En mi tiempo libre, disfruto trabajando en
-                                proyectos personales y contribuyendo al software
-                                de código abierto. Me entusiasma ver qué me
-                                depara el futuro y hacia dónde me llevará mi
-                                pasión por el desarrollo de software.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section id="skills">
+        <div class="container">
+          <h2 class="skill-title subtitle">Habilidades</h2>
+          <p class="skills-paragraph">
+            “Technology is moving at such a pace that if you stand still, you'll miss
+            everything that's happening.”
+            <br />Tim Berners-Lee, British computer scientist.
+          </p>
 
-            <section id="skills">
-                <div class="container">
-                    <h2 class="skill-title subtitle">Habilidades</h2>
-                    <p class="skills-paragraph">
-                        “Technology is moving at such a pace that if you stand
-                        still, you'll miss everything that's happening.”
-                        <br />Tim Berners-Lee, British computer scientist.
-                    </p>
+          <div class="skills-items">
+            <div class="languages">
+              <h2 class="skills-title-1">Lenguajes</h2>
+              <div class="languages-icons">
+                <i class="dev-icon devicon-html5-plain skill-icon"></i>
+                <i class="dev-icon devicon-css3-plain skill-icon"></i>
+                <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                <i class="dev-icon devicon-java-plain skill-icon"></i>
+                <i class="dev-icon devicon-python-plain skill-icon"></i>
+              </div>
+            </div>
+            <div class="technologies">
+              <h2 class="skills-title-2">Tecnologías</h2>
+              <div class="technologies-icons">
+                <i class="dev-icon devicon-git-plain skill-icon"></i>
+                <i class="dev-icon devicon-oracle-plain skill-icon"></i>
+                <i class="dev-icon devicon-mysql-plain skill-icon"></i>
+              </div>
+            </div>
+            <div class="frameworks">
+              <h2 class="skills-title-3">Frameworks</h2>
+              <div class="frameworks-icons">
+                <i class="dev-icon devicon-react-original skill-icon"></i>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33.6"
+                  height="33.6"
+                  viewBox="0 0 24 24"
+                  class="skill-icon"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944c.856 1.026 2.043 1.352 3.272 1.535c1.897.283 3.76.177 5.522-.678c.202-.098.388-.229.608-.36c.166.473.209.95.151 1.437c-.14 1.185-.738 2.1-1.688 2.794c-.38.277-.782.525-1.175.787c-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.158 3.158 0 0 1-1.407-1.188a3.31 3.31 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958c-.106-.769-.472-1.113-1.161-1.133c-.707-.02-1.267.411-1.415 1.09c-.012.053-.028.104-.045.165zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614c.302 0 .57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727z"
+                  />
+                </svg>
+                <i class="dev-icon devicon-tailwindcss-plain skill-icon"></i>
+                <i class="dev-icon devicon-bootstrap-plain skill-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                    <div class="skills-items">
-                        <div class="languages">
-                            <h2 class="skills-title-1">Lenguajes</h2>
-                            <div class="languages-icons">
-                                <i
-                                    class="dev-icon devicon-html5-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-css3-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-javascript-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-java-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-python-plain skill-icon"
-                                ></i>
-                            </div>
-                        </div>
-                        <div class="technologies">
-                            <h2 class="skills-title-2">Tecnologías</h2>
-                            <div class="technologies-icons">
-                                <i
-                                    class="dev-icon devicon-git-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-oracle-plain skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-mysql-plain skill-icon"
-                                ></i>
-                            </div>
-                        </div>
-                        <div class="frameworks">
-                            <h2 class="skills-title-3">Frameworks</h2>
-                            <div class="frameworks-icons">
-                                <i
-                                    class="dev-icon devicon-react-original skill-icon"
-                                ></i>
-                                <i
-                                    class="dev-icon devicon-bootstrap-plain skill-icon"
-                                ></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="projects">
-                <div class="container">
-                    <h2 class="project-title subtitle">Mis proyectos</h2>
-                    <div class="work-list">
-                        <div class="work">
-                            <img
-                                src="https://mcfrostys.github.io/WorldData/img/worlddata.png"
-                                alt="work-2"
-                            />
-                            <div class="layer">
-                                <h3 class="project-title-2">
-                                    World Countries Data
-                                </h3>
-                                <p>
-                                    <i
-                                        class="dev-icon devicon-html5-plain skill-icon"
-                                    ></i>
-                                    <i
-                                        class="dev-icon devicon-css3-plain skill-icon"
-                                    ></i>
-                                    <i
-                                        class="dev-icon devicon-javascript-plain skill-icon"
-                                    ></i>
-                                </p>
-                                <div class="work-links">
-                                    <a
-                                        href="https://github.com/McFrostyS/worlddata"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="github"
-                                        ><i class="fa-brands fa-github"></i
-                                    ></a>
-
-                                    <a
-                                        href="https://mcfrostys.github.io/WorldData/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="external-link"
-                                        ><i
-                                            class="fa-solid fa-arrow-up-right-from-square"
-                                        ></i
-                                    ></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="work">
-                            <img
-                                src="https://mcfrostys.github.io/fridge/img/fridge.png"
-                                alt="work-3"
-                            />
-                            <div class="layer">
-                                <h3 class="project-title-3">Fridge</h3>
-                                <p>
-                                    <i
-                                        class="dev-icon devicon-html5-plain skill-icon"
-                                    ></i>
-                                    <i
-                                        class="dev-icon devicon-css3-plain skill-icon"
-                                    ></i>
-                                    <i
-                                        class="dev-icon devicon-javascript-plain skill-icon"
-                                    ></i>
-                                </p>
-                                <div class="work-links">
-                                    <a
-                                        href="https://github.com/McFrostyS/fridge"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="github"
-                                        ><i class="fa-brands fa-github"></i
-                                    ></a>
-
-                                    <a
-                                        href="https://mcfrostys.github.io/fridge/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="external-link"
-                                        ><i
-                                            class="fa-solid fa-arrow-up-right-from-square"
-                                        ></i
-                                    ></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="work">
-                            <img src="./img/Netflix.jpg" alt="work-4" />
-                            <div class="layer">
-                                <h3 class="project-title-4">Netflix</h3>
-                                <p>
-                                    <i
-                                        class="dev-icon devicon-java-plain skill-icon"
-                                    ></i>
-                                </p>
-                                <div class="work-links">
-                                    <a
-                                        href="https://github.com/McFrostyS/NetflixLogic"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        aria-label="github"
-                                        ><i class="fa-brands fa-github"></i
-                                    ></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- MAS PROYECTOS EN DESARROLLO -->
-                    </div>
-                </div>
-            </section>
-
-            <section id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="contact-left">
-                            <h2 class="contact-title subtitle">Contacto</h2>
-                            <div class="social-icons">
-                                <a
-                                    href="https://github.com/McFrostyS"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    aria-label="github"
-                                    ><i class="fa-brands fa-github"></i
-                                ></a>
-                                <a
-                                    href="https://www.linkedin.com/in/sergioaguadogarrido/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    aria-label="linkedin"
-                                    ><i class="fa-brands fa-linkedin"></i
-                                ></a>
-                                <a
-                                    href="mailto:sergioaguadogarrido@gmail.com"
-                                    aria-label="mail"
-                                    ><i class="fa-solid fa-envelope"></i
-                                ></a>
-                            </div>
-                            <a
-                                href="cv/Mi CV.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="btn download-btn"
-                                >Download CV <i class="fa-solid fa-download"></i
-                            ></a>
-                        </div>
-                        <div class="contact-right">
-                            <form
-                                name="contact"
-                                action="https://formspree.io/f/mqkoweyw"
-                                method="post"
-                            >
-                                <input
-                                    type="text"
-                                    name="Name"
-                                    placeholder="Name"
-                                    required
-                                />
-                                <input
-                                    type="email"
-                                    name="email"
-                                    placeholder="Email"
-                                    required
-                                />
-                                <textarea
-                                    name="Message"
-                                    rows="6"
-                                    placeholder="Message"
-                                    required
-                                ></textarea>
-                                <button type="submit" class="btn">
-                                    Submit
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="copyright">
+      <section id="projects">
+        <div class="container">
+          <h2 class="project-title subtitle">Mis proyectos</h2>
+          <div class="work-list">
+            <div class="work">
+              <img src="img/programming books.webp" alt="work-1" />
+              <div class="layer">
+                <h3 class="project-title-2">Programming Books</h3>
                 <p>
-                    Copyright ©2023 All rights reserved | Page by Sergio Aguado
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="33.6"
+                    height="33.6"
+                    viewBox="0 0 24 24"
+                    class="skill-icon"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944c.856 1.026 2.043 1.352 3.272 1.535c1.897.283 3.76.177 5.522-.678c.202-.098.388-.229.608-.36c.166.473.209.95.151 1.437c-.14 1.185-.738 2.1-1.688 2.794c-.38.277-.782.525-1.175.787c-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.158 3.158 0 0 1-1.407-1.188a3.31 3.31 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958c-.106-.769-.472-1.113-1.161-1.133c-.707-.02-1.267.411-1.415 1.09c-.012.053-.028.104-.045.165zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614c.302 0 .57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727z"
+                    />
+                  </svg>
+                  <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                  <i class="dev-icon devicon-tailwindcss-plain skill-icon"></i>
                 </p>
+                <div class="work-links">
+                  <a
+                    href="https://github.com/McFrostyS/programming-books"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+
+                  <a
+                    href="https://programming-books.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="external-link"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
             </div>
-        </footer>
-    </body>
+
+            <div class="work">
+              <img
+                src="https://mcfrostys.github.io/WorldData/img/worlddata.png"
+                alt="work-2"
+              />
+              <div class="layer">
+                <h3 class="project-title-2">World Countries Data</h3>
+                <p>
+                  <i class="dev-icon devicon-html5-plain skill-icon"></i>
+                  <i class="dev-icon devicon-css3-plain skill-icon"></i>
+                  <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                </p>
+                <div class="work-links">
+                  <a
+                    href="https://github.com/McFrostyS/worlddata"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+
+                  <a
+                    href="https://mcfrostys.github.io/WorldData/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="external-link"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="https://mcfrostys.github.io/fridge/img/fridge.png" alt="work-3" />
+              <div class="layer">
+                <h3 class="project-title-3">Fridge</h3>
+                <p>
+                  <i class="dev-icon devicon-html5-plain skill-icon"></i>
+                  <i class="dev-icon devicon-css3-plain skill-icon"></i>
+                  <i class="dev-icon devicon-javascript-plain skill-icon"></i>
+                </p>
+                <div class="work-links">
+                  <a
+                    href="https://github.com/McFrostyS/fridge"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+
+                  <a
+                    href="https://mcfrostys.github.io/fridge/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="external-link"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="work">
+              <img src="./img/Netflix.jpg" alt="work-4" />
+              <div class="layer">
+                <h3 class="project-title-4">Netflix</h3>
+                <p>
+                  <i class="dev-icon devicon-java-plain skill-icon"></i>
+                </p>
+                <div class="work-links">
+                  <a
+                    href="https://github.com/McFrostyS/NetflixLogic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="github"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- MAS PROYECTOS EN DESARROLLO -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h2 class="contact-title subtitle">Contacto</h2>
+              <div class="social-icons">
+                <a
+                  href="https://github.com/McFrostyS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="github"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/sergioaguadogarrido/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="linkedin"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="mailto:sergioaguadogarrido@gmail.com" aria-label="mail"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </div>
+              <a
+                href="cv/Mi CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn download-btn"
+                >Download CV <i class="fa-solid fa-download"></i
+              ></a>
+            </div>
+            <div class="contact-right">
+              <form name="contact" action="https://formspree.io/f/mqkoweyw" method="post">
+                <input type="text" name="Name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="copyright">
+        <p>Copyright ©2023 All rights reserved | Page by Sergio Aguado</p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 </html>
