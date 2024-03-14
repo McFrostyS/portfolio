@@ -2,11 +2,11 @@
 const sideMenu = document.getElementById('side-menu')
 
 function openMenu() {
-    sideMenu.style.right = '0'
+  sideMenu.style.right = '0'
 }
 
 function closeMenu() {
-    sideMenu.style.right = '-50%'
+  sideMenu.style.right = '-50%'
 }
 
 //Language Toggler
@@ -19,7 +19,6 @@ const navProjects = document.querySelector('.nav-projects')
 const navContact = document.querySelector('.nav-contact')
 
 const headerTitle = document.querySelector('.header-title')
-const typedOut = document.querySelector('.typed-out')
 const typedOut2 = document.querySelector('.typed-out--second')
 
 const aboutTitle = document.querySelector('.about-title')
@@ -39,64 +38,60 @@ const contactTitle = document.querySelector('.contact-title')
 const cv = document.querySelector('.download-btn')
 
 function language() {
-    let id = check.checked
+  let id = check.checked
 
-    if (id == true) {
-        navAbout.innerHTML = 'About'
-        navSkills.innerHTML = 'Skills'
-        navProjects.innerHTML = 'Projects'
-        navContact.innerHTML = 'Contact'
+  if (id == true) {
+    navAbout.innerHTML = 'About'
+    navSkills.innerHTML = 'Skills'
+    navProjects.innerHTML = 'Projects'
+    navContact.innerHTML = 'Contact'
 
-        headerTitle.innerHTML =
-            "Hi, I'm <span class='color'>Sergio</span><br />from Spain"
-        typedOut.innerHTML = 'Web Developer'
-        typedOut2.innerHTML = "¡Let's work together!"
+    headerTitle.innerHTML = "Hi, I'm <span class='color'>Sergio</span><br />from Spain"
+    typedOut2.innerHTML = "¡Let's work together!"
 
-        aboutTitle.innerHTML = 'About Me'
-        aboutParagraph.innerHTML =
-            "I was born on July 20, 2002 in the city of Toledo. Since I was a child I liked technology and computer science, so I decided to study a higher degree in Web Application Development. I'm currently in the second year of this degree, and I'm about to do a specialization in Artificial Intelligence and Big Data."
-        aboutParagraph2.innerHTML =
-            'I love to learn, and I am always looking for new technologies to learn. I really enjoy being self-taught, and I am always looking for new ways to learn.'
-        aboutParagraph3.innerHTML =
-            "In my free time, I enjoy working on personal projects and contributing to open source software. I'm excited to see what the future holds and where my passion for software development will take."
+    aboutTitle.innerHTML = 'About Me'
+    aboutParagraph.innerHTML =
+      "I was born on July 20, 2002 in the city of Toledo. Since I was a child I liked technology and computer science, so I decided to study a higher degree in Web Application Development. I'm currently in the second year of this degree, and I'm about to do a specialization in Artificial Intelligence and Big Data."
+    aboutParagraph2.innerHTML =
+      'I love to learn, and I am always looking for new technologies to learn. I really enjoy being self-taught, and I am always looking for new ways to learn.'
+    aboutParagraph3.innerHTML =
+      "In my free time, I enjoy working on personal projects and contributing to open source software. I'm excited to see what the future holds and where my passion for software development will take."
 
-        skillTitle.innerHTML = 'Skills'
-        skillsTitle1.innerHTML = 'Languages'
-        skillsTitle2.innerHTML = 'Technologies'
+    skillTitle.innerHTML = 'Skills'
+    skillsTitle1.innerHTML = 'Languages'
+    skillsTitle2.innerHTML = 'Technologies'
 
-        projectTitle.innerHTML = 'Projects'
+    projectTitle.innerHTML = 'Projects'
 
-        contactTitle.innerHTML = 'Contact me'
+    contactTitle.innerHTML = 'Contact me'
 
-        cv.setAttribute('href', 'cv/My CV.pdf')
-    } else {
-        navAbout.innerHTML = 'Sobre mí'
-        navSkills.innerHTML = 'Habilidades'
-        navProjects.innerHTML = 'Proyectos'
-        navContact.innerHTML = 'Contacto'
+    cv.setAttribute('href', 'cv/My CV.pdf')
+  } else {
+    navAbout.innerHTML = 'Sobre mí'
+    navSkills.innerHTML = 'Habilidades'
+    navProjects.innerHTML = 'Proyectos'
+    navContact.innerHTML = 'Contacto'
 
-        headerTitle.innerHTML =
-            "Hola, soy <span class='color'>Sergio</span><br />de España"
-        typedOut.innerHTML = 'Desarrollador Web'
-        typedOut2.innerHTML = '¡Trabajemos juntos!'
-        aboutTitle.innerHTML = 'Sobre mí'
-        aboutParagraph.innerHTML =
-            'Soy estudiante de Desarrollo de Aplicaciones Web, y desde pequeño me ha gustado la tecnología y la informática, por lo que decidí estudiar este campo. Actualmente estoy en segundo curso de esta carrera, y estoy deseando hacer la especialización en Inteligencia Artificial y Big Data.'
-        aboutParagraph2.innerHTML =
-            'Me encanta aprender, y siempre estoy buscando nuevas tecnologías que aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas formas de aprender.'
-        aboutParagraph3.innerHTML =
-            'En mi tiempo libre, disfruto trabajando en proyectos personales y contribuyendo al software de código abierto. Me entusiasma ver qué me depara el futuro y hacia dónde me llevará mi pasión por el desarrollo de software.'
+    headerTitle.innerHTML = "Hola, soy <span class='color'>Sergio</span><br />de España"
+    typedOut2.innerHTML = '¡Trabajemos juntos!'
+    aboutTitle.innerHTML = 'Sobre mí'
+    aboutParagraph.innerHTML =
+      'Soy estudiante de Desarrollo de Aplicaciones Web, y desde pequeño me ha gustado la tecnología y la informática, por lo que decidí estudiar este campo. Actualmente estoy en segundo curso de esta carrera, y estoy deseando hacer la especialización en Inteligencia Artificial y Big Data.'
+    aboutParagraph2.innerHTML =
+      'Me encanta aprender, y siempre estoy buscando nuevas tecnologías que aprender. Me encanta ser autodidacta, y siempre estoy buscando nuevas formas de aprender.'
+    aboutParagraph3.innerHTML =
+      'En mi tiempo libre, disfruto trabajando en proyectos personales y contribuyendo al software de código abierto. Me entusiasma ver qué me depara el futuro y hacia dónde me llevará mi pasión por el desarrollo de software.'
 
-        skillTitle.innerHTML = 'Habilidades'
-        skillsTitle1.innerHTML = 'Lenguajes'
-        skillsTitle2.innerHTML = 'Tecnologías'
+    skillTitle.innerHTML = 'Habilidades'
+    skillsTitle1.innerHTML = 'Lenguajes'
+    skillsTitle2.innerHTML = 'Tecnologías'
 
-        projectTitle.innerHTML = 'Proyectos'
+    projectTitle.innerHTML = 'Proyectos'
 
-        contactTitle.innerHTML = 'Contáctame'
+    contactTitle.innerHTML = 'Contáctame'
 
-        cv.setAttribute('href', 'cv/Mi CV.pdf')
-    }
+    cv.setAttribute('href', 'cv/Mi CV.pdf')
+  }
 }
 
 //Scroll Reveal

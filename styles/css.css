@@ -439,18 +439,6 @@ form textarea {
   border-radius: 6px;
 }
 
-.copyright {
-  width: 100%;
-  text-align: center;
-  padding: 25px 0;
-  background-color: var(--fifthColor);
-  line-height: 1.5;
-}
-
-.copyright i {
-  color: var(--secondaryColor);
-}
-
 .btn {
   display: block;
   width: fit-content;
